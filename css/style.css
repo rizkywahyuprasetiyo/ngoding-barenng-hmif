@@ -52,3 +52,29 @@ header {
 .tombol .tombol-utama:hover {
     background-color: rgb(91, 186, 40);
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar {
+    background-image: url(../gambar/hero-image.jpg);
+    width: 570px;
+    height: 491px;
+    margin-top: 24px;
+    border-radius: 0 0 0 150px;
+    position: absolute;
+}
+
+.gambar2 {
+    width: 570px;
+    height: 491px;
+    border-radius: 0 0 0 150px;
+    position: relative;
+    /* background-color: red; */
+    z-index: -1;
+    margin-left: -64px;
+    margin-top: 72px;
+    border: 4px dashed #282828;
+}

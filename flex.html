@@ -5,24 +5,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <style>
-            body {
-                position: relative;
-                height: 500px;
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
             }
 
-            .logo {
-                position: absolute;
-                bottom: 0;
-                right: 0;
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+            }
+
+            .audio {
+                width: 100px;
+                height: 100px;
+                background-color: salmon;
+            }
+
+            .audio2 {
+                width: 120px;
+                height: 120px;
+                background-color: blue;
+            }
+
+            .audio3 {
+                width: 150px;
+                height: 150px;
+                background-color: green;
             }
         </style>
     </head>
     <body>
-        <div class="bungkus">
-            <div class="logo">
-                <img src="gambar/logo.svg" />
-            </div>
-            <h1>Belajar Position</h1>
+        <div class="container">
+            <div class="audio"></div>
+            <div class="audio2"></div>
+            <div class="audio3"></div>
         </div>
     </body>
 </html>
